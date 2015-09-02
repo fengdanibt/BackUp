@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act>
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="1_female" type="application/ssml+xml">
+			<mark name="T0"/>
+			Quiet,
+			<mark name="T1"/>
+			<mark name="T2"/>
+			guys.
+			<mark name="T3"/>
+			<mark name="T4"/>
+			Let's
+			<mark name="T5"/>
+			<mark name="T6"/>
+			get
+			<mark name="T7"/>
+			<mark name="T8"/>
+			this
+			<mark name="T9"/>
+			<mark name="T10"/>
+			show
+			<mark name="T11"/>
+			<mark name="T12"/>
+			going.
+			<mark name="T13"/>
+			<mark name="T14"/>
+			Pick
+			<mark name="T15"/>
+			<mark name="T16"/>
+			up
+			<mark name="T17"/>
+			<mark name="T18"/>
+			where
+			<mark name="T19"/>
+			<mark name="T20"/>
+			we
+			<mark name="T21"/>
+			<mark name="T22"/>
+			left
+			<mark name="T23"/>
+			<mark name="T24"/>
+			off,
+			<mark name="T25"/>
+			<mark name="T26"/>
+			at
+			<mark name="T27"/>
+			<mark name="T28"/>
+			'Come
+			<mark name="T29"/>
+			<mark name="T30"/>
+			out,
+			<mark name="T31"/>
+			<mark name="T32"/>
+			you
+			<mark name="T33"/>
+			<mark name="T34"/>
+			coward'.
+			<mark name="T35"/>
+			<mark name="T36"/>
+			Pay
+			<mark name="T37"/>
+			<mark name="T38"/>
+			attention,
+			<mark name="T39"/>
+			<mark name="T40"/>
+			Max.
+			<mark name="T41"/>
+			<mark name="T42"/>
+			We
+			<mark name="T43"/>
+			<mark name="T44"/>
+			start
+			<mark name="T45"/>
+			<mark name="T46"/>
+			with
+			<mark name="T47"/>
+			<mark name="T48"/>
+			your
+			<mark name="T49"/>
+			<mark name="T50"/>
+			line.
+			<mark name="T51"/>
+		</speech>
+		<face amount="0.3" au="2" relax="sp1:T32" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T32" type="facs"/>
+		<face amount="0.3" au="2" relax="sp1:T48" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T48" type="facs"/>
+		<head amount="0.05" group="small_nod" id="action8258643258" repeats="1" start="blink8258704058:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot8258713658" repeats="0.5" start="action8258643258:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action8258608060" repeats="1" start="blink8258729660:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot8258537660" repeats="0.5" start="action8258608060:relax" type="nod" velocity="1"/>
+		<face amount="0.8" au="45" end="sp1:T2+0.15" group="small_nod" id="blink8258704058" side="BOTH" start="sp1:T2+0" type="facs"/>
+		<gesture name="ChrRachel@Idle02_BeatLowLf01" priority="46" start="sp1:T4" stroke="sp1:T3"/>
+		<face amount="0.8" au="45" end="sp1:T16+0.15" group="small_nod" id="blink8258729660" side="BOTH" start="sp1:T16+0" type="facs"/>
+		<gaze target = "Max" start="sp1:T36" sbm:joint-speed="600 1500" sbm:joint-smooth="2" />
+		<gesture name = "ChrRachel@Idle02_YouLf01" priority="2" relax="sp1:T49" stroke="sp1:T48"/>
+		<gaze target= "LeftEyeAnchor" start="sp1:T51" sbm:joint-speed="520 1500" sbm:joint-smooth="2"/>
+	</bml>
+</act>

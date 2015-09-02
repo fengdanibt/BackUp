@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act xmlns:ns0="http://ict.usc.edu">
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="news3" type="application/ssml+xml">
+			<mark name="T0"/>
+			I
+			<mark name="T1"/>
+			<mark name="T2"/>
+			have
+			<mark name="T3"/>
+			<mark name="T4"/>
+			news
+			<mark name="T5"/>
+			<mark name="T6"/>
+			about
+			<mark name="T7"/>
+			<mark name="T8"/>
+			the
+			<mark name="T9"/>
+			<mark name="T10"/>
+			punishment.
+			<mark name="T11"/>
+		</speech>
+		<gaze angle="5" direction="DOWN" ns0:fade-in="0.4" ns0:handle="emotionSadBack" start="sp1:T0" target="camera"/>
+		<gaze angle="20" direction="DOWN" ns0:fade-in="0.1" ns0:handle="emotionSadEyes" start="sp1:T0" target="camera"/>
+		<gaze angle="5" direction="DOWN" ns0:fade-in="0.4" ns0:handle="emotionSadBack" start="sp1:T0" target="camera"/>
+		<gaze angle="20" direction="DOWN" ns0:fade-in="0.1" ns0:handle="emotionSadEyes" start="sp1:T0" target="camera"/>
+		<face amount="0.65" au="1" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.75" au="4" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.78" au="10" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.24" au="23" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.20" au="24" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.54" au="25" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.17" au="26" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.65" au="1" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.75" au="4" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.78" au="10" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.24" au="23" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.20" au="24" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.54" au="25" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.17" au="26" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<gesture emotion="sad" group="rhythm" lexeme="BEAT" priority="46" relax="sp1:T3" stroke="sp1:T2" type="rhythm"/>
+		<head amount="0.10" group="tilt_lf_nod" repeats="0.5" start="sp1:T2+0" type="nod"/>
+		<head amount="0.2" end="sp1:T2+1.2" group="tilt_lf_nod" ready="sp1:T2+0.4" relax="sp1:T2+0.8" repeats="0.5" start="sp1:T2+0" type="TOSS"/>
+		<gaze ns0:fade-out="0.3" ns0:handle="emotionSadBack" start="sp1:T11" target="camera"/>
+		<gaze ns0:fade-out="0.1" ns0:handle="emotionSadEyes" start="sp1:T11" target="camera"/>
+		<gaze ns0:fade-out="0.3" ns0:handle="emotionSadBack" start="sp1:T11" target="camera"/>
+		<gaze ns0:fade-out="0.1" ns0:handle="emotionSadEyes" start="sp1:T11" target="camera"/>
+	</bml>
+</act>

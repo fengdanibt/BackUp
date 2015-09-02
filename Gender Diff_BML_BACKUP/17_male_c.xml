@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act>
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="17_male_c" type="application/ssml+xml">
+			<mark name="T0"/>
+			Again
+			<mark name="T1"/>
+		</speech>
+	</bml>
+</act>

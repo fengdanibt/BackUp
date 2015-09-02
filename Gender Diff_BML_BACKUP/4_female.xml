@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act>
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="4_female" type="application/ssml+xml">
+			<mark name="T0"/>
+			Woah
+			<mark name="T1"/>
+			<mark name="T2"/>
+			woah
+			<mark name="T3"/>
+			<mark name="T4"/>
+			woah
+			<mark name="T5"/>
+			<mark name="T6"/>
+			woah,
+			<mark name="T7"/>
+			<mark name="T8"/>
+			stop.
+			<mark name="T9"/>
+			<mark name="T10"/>
+			You
+			<mark name="T11"/>
+			<mark name="T12"/>
+			are
+			<mark name="T13"/>
+			<mark name="T14"/>
+			sounding
+			<mark name="T15"/>
+			<mark name="T16"/>
+			way
+			<mark name="T17"/>
+			<mark name="T18"/>
+			too
+			<mark name="T19"/>
+			<mark name="T20"/>
+			excited.
+			<mark name="T21"/>
+			<mark name="T22"/>
+			Let
+			<mark name="T23"/>
+			<mark name="T24"/>
+			us
+			<mark name="T25"/>
+			<mark name="T26"/>
+			do
+			<mark name="T27"/>
+			<mark name="T28"/>
+			it
+			<mark name="T29"/>
+			<mark name="T30"/>
+			again,
+			<mark name="T31"/>
+			<mark name="T32"/>
+			and
+			<mark name="T33"/>
+			<mark name="T34"/>
+			tone
+			<mark name="T35"/>
+			<mark name="T36"/>
+			it
+			<mark name="T37"/>
+			<mark name="T38"/>
+			down.
+			<mark name="T39"/>
+			<mark name="T40"/>
+			Casual-like.
+			<mark name="T41"/>
+		</speech>
+		<face amount="0.3" au="2" relax="sp1:T10" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T10" type="facs"/>
+		<face amount="0.5" au="4" relax="sp1:T16" type="facs"/>
+		<head amount="0.05" group="small_nod" id="action186866240681" repeats="1" start="blink186847616681:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186851104681" repeats="0.5" start="action186866240681:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action186865312683" repeats="1" start="blink186848768683:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186850656683" repeats="0.5" start="action186865312683:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action186850656687" repeats="1" start="blink186850752687:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186851200687" repeats="0.5" start="action186850656687:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action186847744694" repeats="1" start="blink186848640694:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186850240694" repeats="0.5" start="action186847744694:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action186848128696" repeats="1" start="blink186847616696:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186847936696" repeats="0.5" start="action186848128696:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action186847936707" repeats="1" start="blink186849024707:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186847360707" repeats="0.5" start="action186847936707:relax" type="nod" velocity="1"/>
+		<face amount="0.8" au="45" end="sp1:T0+0." id="blink186865280671" relax="sp1:T0+0.1" side="BOTH" start="sp1:T0+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T0+0." id="blink186866432673" relax="sp1:T0+0.1" side="BOTH" start="sp1:T0+0" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_BeatPointMidRt01" priority="3" relax="sp1:T1" stroke="sp1:T0" type="rhythm"/>
+		<face amount="0.8" au="45" end="sp1:T0+0.15" group="small_nod" id="blink186847616696" side="BOTH" start="sp1:T0+0" type="facs"/>
+		<face amount="1" au="4" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T2+0." id="blink186866272672" relax="sp1:T2+0.1" side="BOTH" start="sp1:T2+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T2+0." id="blink186865664675" relax="sp1:T2+0.1" side="BOTH" start="sp1:T2+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T4+0." id="blink186866176674" relax="sp1:T4+0.1" side="BOTH" start="sp1:T4+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T4+0." id="blink186849152677" relax="sp1:T4+0.1" side="BOTH" start="sp1:T4+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T6+0." id="blink186848768676" relax="sp1:T6+0.1" side="BOTH" start="sp1:T6+0" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T9" stroke="sp1:T8"/>
+		<face amount="0.8" au="45" end="sp1:T8+0.15" group="small_nod" id="blink186847616681" side="BOTH" start="sp1:T8+0" type="facs"/>
+		<gesture name="ChrRachel@Idle02_YouPointLf01" priority="2" relax="sp1:T11" stroke="sp1:T10"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T11" stroke="sp1:T10"/>
+		<face amount="1" au="4" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T13" stroke="sp1:T12"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T15" stroke="sp1:T14"/>
+		<face amount="0.8" au="45" end="sp1:T14+0.15" group="small_nod" id="blink186848768683" side="BOTH" start="sp1:T14+0" type="facs"/>
+		<gesture name="ChrRachel@Idle02_BeatHighBt01" priority="22" relax="sp1:T19" stroke="sp1:T16"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T17" stroke="sp1:T16"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T19" stroke="sp1:T18"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T21" stroke="sp1:T20"/>
+		<face amount="0.8" au="45" end="sp1:T20+0.15" group="small_nod" id="blink186850752687" side="BOTH" start="sp1:T20+0" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T23" stroke="sp1:T22"/>
+		<face amount="1" au="4" end="sp1:T22+6.0" relax="sp1:T22+2.0" side="BOTH" start="sp1:T22+0" stroke="sp1:T22+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T22+6.0" relax="sp1:T22+2.0" side="BOTH" start="sp1:T22+0" stroke="sp1:T22+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T22+6.0" relax="sp1:T22+2.0" side="BOTH" start="sp1:T22+0" stroke="sp1:T22+.4" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T25" stroke="sp1:T24"/>
+		<face amount="1" au="4" end="sp1:T24+6.0" relax="sp1:T24+2.0" side="BOTH" start="sp1:T24+0" stroke="sp1:T24+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T24+6.0" relax="sp1:T24+2.0" side="BOTH" start="sp1:T24+0" stroke="sp1:T24+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T24+6.0" relax="sp1:T24+2.0" side="BOTH" start="sp1:T24+0" stroke="sp1:T24+.4" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T27" stroke="sp1:T26"/>
+		<face amount="0.8" au="45" end="sp1:T26+0.15" group="small_nod" id="blink186849024707" side="BOTH" start="sp1:T26+0" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T29" stroke="sp1:T28" />
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T31" stroke="sp1:T30" />
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T33" stroke="sp1:T32" />
+		<gesture name = "ChrRachel@Idle02_HereBt02" priority="15" relax="sp1:T35" stroke="sp1:T34" />
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T35" stroke="sp1:T34" />
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T37" stroke="sp1:T36" />
+		<face amount="1" au="4" end="sp1:T36+6.0" relax="sp1:T36+2.0" side="BOTH" start="sp1:T36+0" stroke="sp1:T36+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T36+6.0" relax="sp1:T36+2.0" side="BOTH" start="sp1:T36+0" stroke="sp1:T36+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T36+6.0" relax="sp1:T36+2.0" side="BOTH" start="sp1:T36+0" stroke="sp1:T36+.4" type="facs"/>
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T39" stroke="sp1:T38" />
+		<gesture name ="ChrRachel@Idle02_ChopLf02" priority="4" relax="sp1:T41" stroke="sp1:T40" />
+		<face amount="0.8" au="45" end="sp1:T40+0.15" group="small_nod" id="blink186848640694" side="BOTH" start="sp1:T40+0" type="facs"/>
+	</bml>
+</act>

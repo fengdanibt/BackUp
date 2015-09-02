@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bml>
+    <speech id="sp1" start="0.0" ready="0.1" stroke="0.1" relax="0.2" end="0.2">
+        <text>
+            <sync id="T0" time="0.04" />Again
+            <sync id="T1" time="1.01" />
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="17_male_b" />
+        </description>
+    </speech>
+    <lips viseme="_" articulation="1.0" start="0" ready="0" relax="0.04" end="0.04" />
+    <lips viseme="Ah" articulation="1.0" start="0.04" ready="0.04" relax="0.21" end="0.21" />
+    <lips viseme="Kg" articulation="1.0" start="0.21" ready="0.21" relax="0.34" end="0.34" />
+    <lips viseme="Eh" articulation="1.0" start="0.34" ready="0.34" relax="0.69" end="0.69" />
+    <lips viseme="D" articulation="1.0" start="0.69" ready="0.69" relax="1.01" end="1.01" />
+    <lips viseme="_" articulation="1.0" start="1.01" ready="1.01" relax="3.187" end="3.187" />
+    <curves>
+        <curve name="open" num_keys="7" owner="analysis">-0.382667 0 0 0 -0.09 0.421875 1.441486 1.024304 -0.023333 0.490162 1.024304 0.297226 0.177796 0.549943 0 0 0.316209 0.5 0 0 0.65383 0.55 0 0 1.102666 0 0 0</curve>
+        <curve name="wide" num_keys="5" owner="analysis">-0.382667 0 0 0 0.004303 0.6 0 0 0.177796 0.000683 0 0 0.316209 0.6 0 0 0.652667 0 0 0</curve>
+        <curve name="tBack" num_keys="6" owner="analysis">-0.389333 0 0 0 0.036667 0.42644 1.001032 2.606342 0.178825 0.796952 0 0 0.303334 0.403048 -3.163668 -0.829232 0.42 0.306304 -0.829232 -1.262242 0.662667 0 0 0</curve>
+        <curve name="tRoof" num_keys="3" owner="analysis">0.310667 0 0 0 0.661134 0.79914 0 0 1.112666 0 0 0</curve>
+        <curve name="Blink" num_keys="3" owner="analysis">2.351332 0 0 0 2.469522 0.98495 0 0 2.553332 0 0 0</curve>
+    </curves>
+</bml>

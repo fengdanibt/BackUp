@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act xmlns:ns0="http://ict.usc.edu">
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="coward1" type="application/ssml+xml">
+			<mark name="T0"/>
+			Come
+			<mark name="T1"/>
+			<mark name="T2"/>
+			out,
+			<mark name="T3"/>
+			<mark name="T4"/>
+			you
+			<mark name="T5"/>
+			<mark name="T6"/>
+			coward.
+			<mark name="T7"/>
+		</speech>
+		<face amount="0.3" au="2" relax="sp1:T4" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T4" type="facs"/>
+		<gaze angle="5" direction="DOWN" ns0:fade-in="0.4" ns0:handle="emotionSadBack" start="sp1:T0" target="camera"/>
+		<gaze angle="20" direction="DOWN" ns0:fade-in="0.1" ns0:handle="emotionSadEyes" start="sp1:T0" target="camera"/>
+		<face amount="0.65" au="1" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.75" au="4" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.78" au="10" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.24" au="23" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.20" au="24" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.54" au="25" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.17" au="26" end="sp1:T0+3.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<gaze angle="5" direction="DOWN" ns0:fade-in="0.4" ns0:handle="emotionSadBack" start="sp1:T2" target="camera"/>
+		<gaze angle="20" direction="DOWN" ns0:fade-in="0.1" ns0:handle="emotionSadEyes" start="sp1:T2" target="camera"/>
+		<face amount="0.65" au="1" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.75" au="4" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.78" au="10" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.24" au="23" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.20" au="24" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.54" au="25" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<face amount="0.17" au="26" end="sp1:T2+3.0" relax="sp1:T2+2.0" side="BOTH" start="sp1:T2+0" stroke="sp1:T2+.4" type="facs"/>
+		<gesture emotion="sad" group="you" lexeme="DEICTIC" priority="2" relax="sp1:T5" stroke="sp1:T4" type="YOU"/>
+		<gaze angle="5" direction="DOWN" ns0:fade-in="0.4" ns0:handle="emotionSadBack" start="sp1:T4" target="camera"/>
+		<gaze angle="20" direction="DOWN" ns0:fade-in="0.1" ns0:handle="emotionSadEyes" start="sp1:T4" target="camera"/>
+		<face amount="0.65" au="1" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.75" au="4" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.78" au="10" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.24" au="23" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.20" au="24" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.54" au="25" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<face amount="0.17" au="26" end="sp1:T4+3.0" relax="sp1:T4+2.0" side="BOTH" start="sp1:T4+0" stroke="sp1:T4+.4" type="facs"/>
+		<gaze ns0:fade-out="0.3" ns0:handle="emotionSadBack" start="sp1:T7" target="camera"/>
+		<gaze ns0:fade-out="0.1" ns0:handle="emotionSadEyes" start="sp1:T7" target="camera"/>
+		<gaze ns0:fade-out="0.3" ns0:handle="emotionSadBack" start="sp1:T7" target="camera"/>
+		<gaze ns0:fade-out="0.1" ns0:handle="emotionSadEyes" start="sp1:T7" target="camera"/>
+		<gaze ns0:fade-out="0.3" ns0:handle="emotionSadBack" start="sp1:T7" target="camera"/>
+		<gaze ns0:fade-out="0.1" ns0:handle="emotionSadEyes" start="sp1:T7" target="camera"/>
+	</bml>
+</act>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act xmlns:ns0="http://ict.usc.edu">
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="9_female" type="application/ssml+xml">
+			<mark name="T0"/>
+			Come
+			<mark name="T1"/>
+			<mark name="T2"/>
+			on!
+			<mark name="T3"/>
+			<mark name="T4"/>
+			Work
+			<mark name="T5"/>
+			<mark name="T6"/>
+			with
+			<mark name="T7"/>
+			<mark name="T8"/>
+			me
+			<mark name="T9"/>
+			<mark name="T10"/>
+			here.
+			<mark name="T11"/>
+			<mark name="T12"/>
+			Say
+			<mark name="T13"/>
+			<mark name="T14"/>
+			it
+			<mark name="T15"/>
+			<mark name="T16"/>
+			like
+			<mark name="T17"/>
+			<mark name="T18"/>
+			you
+			<mark name="T19"/>
+			<mark name="T20"/>
+			mean
+			<mark name="T21"/>
+			<mark name="T22"/>
+			it!
+			<mark name="T23"/>
+		</speech>
+		<face amount="0.3" au="2" relax="sp1:T18" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T18" type="facs"/>
+		<head amount="0.05" group="small_nod" id="action191775008480" repeats="1" start="blink191775328480:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot191776064480" repeats="0.5" start="action191775008480:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action191775296488" repeats="1" start="blink191775456488:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot191775712488" repeats="0.5" start="action191775296488:relax" type="nod" velocity="1"/>
+		<head amount="0.05" group="small_nod" id="action191775296492" repeats="1" start="blink191775072492:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot191775872492" repeats="0.5" start="action191775296492:relax" type="nod" velocity="1"/>
+		<gesture name="ChrRachel@Idle02_BeatMidBt01" priority="2"  start="sp1:T0" />
+		<face amount="0.8" au="45" end="sp1:T0+0.15" group="small_nod" id="blink191775328480" side="BOTH" start="sp1:T0+0" type="facs"/>
+		<face amount="1" au="4" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T0+6.0" relax="sp1:T0+2.0" side="BOTH" start="sp1:T0+0" stroke="sp1:T0+.4" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T6+0.15" group="small_nod" id="blink191775456488" side="BOTH" start="sp1:T6+0" type="facs"/>
+		<!--  <gesture name="ChrRachel@Idle02_MeRt02" priority="200" relax="sp1:T9" stroke="sp1:T8"/>
+		<gaze angle="8" direction="LEFT" ns0:joint-range="EYES" start="sp1:T10+0" target="LeftEyeAnchor"/>
+		<gaze angle="0" direction="RIGHT" ns0:joint-range="EYES" start="sp1:T10+0.3" target="LeftEyeAnchor"/>-->
+		<face amount="1" au="4" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T10+6.0" relax="sp1:T10+2.0" side="BOTH" start="sp1:T10+0" stroke="sp1:T10+.4" type="facs"/>
+		<face amount="1" au="4" end="sp1:T14+6.0" relax="sp1:T14+2.0" side="BOTH" start="sp1:T14+0" stroke="sp1:T14+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T14+6.0" relax="sp1:T14+2.0" side="BOTH" start="sp1:T14+0" stroke="sp1:T14+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T14+6.0" relax="sp1:T14+2.0" side="BOTH" start="sp1:T14+0" stroke="sp1:T14+.4" type="facs"/>
+		<gesture name = "ChrRachel@Idle02_BeatFistMidRt01" priority="2"  relax= "sp1:T22" stroke="sp1:T21" />
+		<face amount="0.8" au="45" end="sp1:T18+0.15" group="small_nod" id="blink191775072492" side="BOTH" start="sp1:T18+0" type="facs"/>
+		<face amount="1" au="4" end="sp1:T18+6.0" relax="sp1:T18+2.0" side="BOTH" start="sp1:T18+0" stroke="sp1:T18+.4" type="facs"/>
+		<face amount="0.4" au="5" end="sp1:T18+6.0" relax="sp1:T18+2.0" side="BOTH" start="sp1:T18+0" stroke="sp1:T18+.4" type="facs"/>
+		<face amount="1" au="10" end="sp1:T18+6.0" relax="sp1:T18+2.0" side="BOTH" start="sp1:T18+0" stroke="sp1:T18+.4" type="facs"/>
+	</bml>
+</act>

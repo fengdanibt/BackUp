@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<act>
+	<participant id="ChrName" role="actor"/>
+	<bml>
+		<speech id="sp1" ref="2_female" type="application/ssml+xml">
+			<mark name="T0"/>
+			Hang
+			<mark name="T1"/>
+			<mark name="T2"/>
+			on.
+			<mark name="T3"/>
+			<mark name="T4"/>
+			You
+			<mark name="T5"/>
+			<mark name="T6"/>
+			are
+			<mark name="T7"/>
+			<mark name="T8"/>
+			giving
+			<mark name="T9"/>
+			<mark name="T10"/>
+			it
+			<mark name="T11"/>
+			<mark name="T12"/>
+			too
+			<mark name="T13"/>
+			<mark name="T14"/>
+			much
+			<mark name="T15"/>
+			<mark name="T16"/>
+			energy.
+			<mark name="T17"/>
+			<mark name="T18"/>
+			Try
+			<mark name="T19"/>
+			<mark name="T20"/>
+			bringing
+			<mark name="T21"/>
+			<mark name="T22"/>
+			it
+			<mark name="T23"/>
+			<mark name="T24"/>
+			down
+			<mark name="T25"/>
+			<mark name="T26"/>
+			a
+			<mark name="T27"/>
+			<mark name="T28"/>
+			notch,
+			<mark name="T29"/>
+			<mark name="T30"/>
+			okay?
+			<mark name="T31"/>
+			<mark name="T32"/>
+			Try
+			<mark name="T33"/>
+			<mark name="T34"/>
+			that
+			<mark name="T35"/>
+			<mark name="T36"/>
+			line
+			<mark name="T37"/>
+			<mark name="T38"/>
+			again.
+			<mark name="T39"/>
+		</speech>
+		<head amount="0.05" group="small_nod" id="action186866240759" repeats="1" start="blink186865440759:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186866752759" repeats="0.5" start="action186866240759:relax" type="nod" velocity="1"/>
+		<face amount="0.3" au="2" relax="sp1:T4" type="facs"/>
+		<face amount="0.3" au="1" relax="sp1:T4" type="facs"/>
+		<head amount="0.05" group="small_nod" id="action186864320764" repeats="1" start="blink186867520764:start" type="nod" velocity="1"/>
+		<head amount="0.01" group="small_nod" id="overshoot186864448764" repeats="0.5" start="action186864320764:relax" type="nod" velocity="1"/>
+		<gesture name = "ChrRachel@Idle02_BeatMidBt01new" priority="14" stroke="sp1:T0"/>
+		<gesture name = "ChrRachel@Idle02_YouLf01new" priority="2" relax="sp1:T5" stroke="sp1:T4"/>
+		<gesture name = "ChrRachel@Idle02_ChopLf01" priority="46" relax="sp1:T21" stroke="sp1:T20"/>
+		<face amount="0.8" au="45" end="sp1:T20+0.15" group="small_nod" id="blink186867520764" side="BOTH" start="sp1:T20+0" type="facs"/>
+		<face amount="0.8" au="45" end="sp1:T30+0.15" group="small_nod" id="blink186865440759" side="BOTH" start="sp1:T30+0" type="facs"/>
+	</bml>
+</act>
